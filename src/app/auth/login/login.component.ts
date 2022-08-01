@@ -12,6 +12,7 @@ import { AuthService } from 'src/app/core/services/auth/auth.service';
 })
 export class LoginComponent implements OnInit
 {
+  
   public user!: User;
 
   constructor(private router: Router,
